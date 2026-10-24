@@ -30,9 +30,9 @@ jobs:
         path: target/*.jar
 
     # CREATE GITHUB RELEASE
-    - name: Create Release
-      uses: softprops/action-gh-release@v1
-      with:
-        files: |
-          target/*.jar
-          snake-game.tar
+    # - name: Create Release
+      # uses: softprops/action-gh-release@v1
+      # with:
+        # files: |
+          # target/*.jar
+          # snake-game.tar
